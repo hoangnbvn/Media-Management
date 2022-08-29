@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="203.0" prefWidth="232.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.soict.hedspi.aims.Controller">
+   <children>
+      <Label layoutX="95.0" layoutY="29.0" text="Input Id" />
+      <TextField fx:id="tf_id1" layoutX="35.0" layoutY="57.0" />
+      <Label layoutX="88.0" layoutY="94.0" text="Input date" />
+      <TextField fx:id="tf_id2" layoutX="35.0" layoutY="111.0" />
+      <Button layoutX="89.0" layoutY="153.0" mnemonicParsing="false" onAction="#SubmitCreate" text="Done" />
+   </children>
+</AnchorPane>

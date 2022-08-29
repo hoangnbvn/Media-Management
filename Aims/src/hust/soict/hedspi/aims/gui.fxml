@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="236.0" prefWidth="331.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="hust.soict.hedspi.aims.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="78.0" layoutY="14.0" prefHeight="33.0" prefWidth="176.0" text="Order Manament Appilication" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Button layoutX="127.0" layoutY="57.0" mnemonicParsing="false" onAction="#Create" prefHeight="27.0" prefWidth="85.0" text="Create" />
+      <Button layoutX="127.0" layoutY="91.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="85.0" text="Add items" />
+      <Button layoutX="127.0" layoutY="121.0" mnemonicParsing="false" onAction="#deleteItem" prefHeight="27.0" prefWidth="85.0" text="Delete" />
+      <Button layoutX="126.0" layoutY="154.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="85.0" text="Display" />
+      <Button layoutX="127.0" layoutY="187.0" mnemonicParsing="false" onAction="#Exit" prefHeight="27.0" prefWidth="85.0" text="Exit" />
+      <Label fx:id="lb_message" alignment="CENTER" layoutX="8.0" layoutY="222.0" prefHeight="76.0" prefWidth="316.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="169.0" prefWidth="215.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.soict.hedspi.aims.Controller">
+   <children>
+      <Label layoutX="67.0" layoutY="14.0" text="Delete Item" />
+      <TextField fx:id="tf_id" layoutX="39.0" layoutY="71.0" prefHeight="27.0" prefWidth="138.0" />
+      <Label layoutX="78.0" layoutY="37.0" text="Input Id" />
+      <Button layoutX="75.0" layoutY="108.0" mnemonicParsing="false" onAction="#submitDelete" text="Done" />
+   </children>
+</AnchorPane>
